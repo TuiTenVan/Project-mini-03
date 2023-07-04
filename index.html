@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="image/png-transparent-json-computer-icons-jar-jar-angle-text-rectangle-thumbnail.png">
+    <title>Shopee Fake</title>
+</head>
+
+<body>
+    <h2 class="title">Danh mục sản phẩm</h2>
+    <div class="category" id="category"></div>
+    <h2 class="title">Danh mục sản phẩm</h2>
+    <div class="search" id="search">
+        <select class="filter" id="filter">
+            <option value="mac-dinh">Mặc định</opition>
+            <option value="gia-thap-den-cao">Giá thấp đến cao</option>
+            <option value="gia-cao-den-thap">Giá cao đến thấp</option>
+            <option value="giam-gia-nhieu">Giảm giá nhiều</option>
+        </select>
+        <input type="text" placeholder="Nhập từ khóa tìm kiếm"></input>
+        <button>Search</button>
+    </div>
+    <div class="product" id="product">
+    </div>
+
+    <div class="pagination">
+        <button id="paginationPrev">Prev</button>
+        <span id="paginationNumber">1</span>
+        <button id="paginationNext">Next</button>
+    </div>
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>

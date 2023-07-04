@@ -1,0 +1,115 @@
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.category__item{
+    width: calc(180px - 20px);
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #98bcd8;
+    background-image: linear-gradient(50deg, hsla(120, 36%, 75%, 0.812) 20%, #dac6d94b);
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product__item{
+    width: calc(350px - 15px);
+    margin-right: 15px;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: #d1e6dc;
+    border: 1px solid #ddd;
+}
+.product__image{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.product__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product__percent{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgb(244, 236, 177);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.product__title{
+    margin-top: 0;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.product__meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__price{
+    font-weight: 700;
+    color: rgb(212, 80, 65);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.product__stock{
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.search{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.search input{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+}
+.search button{
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination span{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.filter{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    height: 35px;
+}
